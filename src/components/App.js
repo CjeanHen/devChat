@@ -18,7 +18,7 @@ const App = ({ currentUser, currentChannel }) => (
       <Messages
       key={currentChannel && currentChannel.id}
       currentChannel={currentChannel}
-      currenUser={currentUser} />
+      currentUser={currentUser} />
     </Grid.Column>
     <Grid.Column width={4}>
       <MetaPanel />
